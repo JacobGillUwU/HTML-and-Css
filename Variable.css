@@ -1,0 +1,8 @@
+/* link: Tag in HTML */
+:root{
+    --text-color: violet;
+}
+
+table {
+    color: var(--text-color)
+}

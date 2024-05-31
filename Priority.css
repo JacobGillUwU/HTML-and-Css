@@ -1,0 +1,34 @@
+/* Equal specificity? */
+
+/* mức độ ưu tiên chỉ sau inline */
+h1#firstly.first{
+   color:aquamarine;
+}
+
+/* mức độ ưu tiên sau cái trên và inline */
+#firstly.first{
+    color:antiquewhite
+}
+
+h1{
+    color:tan;
+    font-size: x-large;
+  }
+.first {
+color:rgb(158, 215, 215);
+}
+
+#firstly {
+color:rgb(196, 192, 206);
+}
+
+/*  "*" thuộc tính này áp dụng cho tất cả các phần tử 
+ nhưng nó sẽ bị thay thế ngay khi có phần tử mới*/
+*{
+    color: darkgoldenrod;
+}
+
+/* ưu tiên hơn cả inline */
+li{
+    color: rgb(138, 29, 103) !important;
+}
