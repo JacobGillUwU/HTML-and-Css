@@ -1,10 +1,10 @@
 /* với ID thì ta sử dụng "#" */
 #first{
-    color:beige;font-size: 40px;
+    color:floralwhite;font-size: 40px;
 }
 
 #second{
-    color: coral;font-size: 22px;
+    color: burlywood;font-size: 22px;
 }
 
 /* với Class thì ta sử dụng "." */
